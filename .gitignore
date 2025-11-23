@@ -1,1 +1,7 @@
-.streamlit/
+# .gitignore 파일 내용
+
+# Streamlit secrets 파일은 민감한 정보를 담고 있으므로 무시
+.streamlit/secrets.toml
+
+# 혹시 환경 변수를 저장하는 다른 파일(.env)이 있다면 추가합니다.
+# .env
